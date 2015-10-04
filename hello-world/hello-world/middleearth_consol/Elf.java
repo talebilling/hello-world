@@ -2,6 +2,7 @@ package middleearth_consol;
 
 public class Elf {
 	String name;
+
 	//static String name: static minden objektumra EGY közös változót hoz létre
 	static int countTotalNumberOfElves = 0;
 
@@ -13,10 +14,13 @@ public class Elf {
 		//                        countTotalNumberOfElves++;
 	}
 
-	static void printTotalNumberOfElves() {
+	public static void printTotalNumberOfElves() {
 		System.out.println(countTotalNumberOfElves);
 	}
 	
+	public String getName() {
+		return name;
+	}
 	
 	public void sayNumber() {
 		String number = "Eins";
