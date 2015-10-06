@@ -17,14 +17,17 @@ public class Elf {
 	public static void printTotalNumberOfElves() {
 		System.out.println(countTotalNumberOfElves);
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void sayNumber() {
 		String number = "Eins";
 		System.out.println(name + " says: " + number);
 	}
-	
+
+	public String getClassName() {
+		return "Elf";
+	}
 }

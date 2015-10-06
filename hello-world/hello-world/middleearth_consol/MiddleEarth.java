@@ -16,6 +16,7 @@ public class MiddleEarth {
 		Elf.printTotalNumberOfElves();
 
 		System.out.println(elf1.getName());
+		System.out.println(elf1.getClassName());
 
 		
 		// betettem egy sort. Emese
