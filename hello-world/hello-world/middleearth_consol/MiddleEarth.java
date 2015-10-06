@@ -17,6 +17,7 @@ public class MiddleEarth {
 
 		System.out.println(elf1.getName());
 
+		
 		// betettem egy sort. Emese
 	}
 
