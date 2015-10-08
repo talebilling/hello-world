@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Spagetti {
 
+	//új osztályt csinálni új package-ben, main-el, beolvassa a system in-rõl, hogy true vagy false, false-nál elköszön, és vége, 
+	//ha se nem F se nem T, akkor azt írja ki hogy rossz input, és ha T, akkor kiírja, hogy válassz a lehetõségek közül
+	//A=kiszámolom egy szám négyzetét, B=kiszámolom egy szám gyökét, C=kiszámolom az abszolút értétét
+	//és itt megint várja az A/b/c-t, utána azt mondja, hogy adja meg a számot.
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Type the operation, and two numbers!");
