@@ -9,6 +9,10 @@ public class SimpleLoop {
 		for (int i = 0;i < 10; i++){
 			System.out.println(i);
 		}
+		
+		//int[] array = new int[10];
+		
+		
 
 		System.out.println("");
 		System.out.println("Számok 1-10-ig:");
