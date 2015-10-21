@@ -48,6 +48,7 @@ public class NumberPrinter {
 			System.out.println(number);
 		}
 
+		
 		//írja ki a maximumát a tömbnek
 		System.out.println("");
 		System.out.println("Maximum of the loop: ");
